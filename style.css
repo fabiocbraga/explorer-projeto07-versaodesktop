@@ -36,6 +36,10 @@ main{
     justify-items: center;
 }
 
+.footer{
+    display: none;
+}
+
 .produtos{
     position: relative;
     font-family: var(--ff-texting);
@@ -149,6 +153,13 @@ header h1{
 @media (min-width: 700px){
     body{
         padding-top: 2.0rem;
+    }
+
+    .footer{
+        display: grid;    
+        justify-items: center;
+        color: var(--fc-secundary-dark);
+        font-family: var(--ff-texto);
     }
     
     .main{
